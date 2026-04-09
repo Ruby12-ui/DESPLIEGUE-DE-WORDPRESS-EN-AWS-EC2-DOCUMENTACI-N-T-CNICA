@@ -2,11 +2,11 @@
 # MARCCARENJA - Despliegue de WordPress en AWS EC2
 
 ## Descripción del Proyecto
-Despliegue de un servidor web en Amazon Web Services (EC2) con WordPress para la **Asociación de Agricultores de Palta en Huamanpali - Alto Larán (AAPHAL)**.
+Despliegue de un servidor web en Amazon Web Services (EC2) con WordPress para la **Asociación de Agricultores de la granada (MARCCARENJA)**.
 
 ## Datos del Estudiante
-**Nombre:** Alexis Rejas
-**Usuario Linux:** alexis_rejas
+**Nombre:** Ruby Cubas Villanueva 
+**Usuario Linux:** ruby_cubas
 **Curso:** Análisis de Sistemas
 
 ## Tecnologías Utilizadas
@@ -38,8 +38,8 @@ ssh -i "mi-clave-wordpress.pem" ubuntu@100.54.146.73
 ### 3. Creación de usuario Linux
 
 bash
-sudo adduser alexis_rejas
-sudo usermod -aG sudo alexis_rejas
+sudo adduser ruby_cubas
+sudo usermod -aG sudo ruby_cubas
 
 
 
@@ -58,8 +58,8 @@ sudo apt install php libapache2-mod-php php-mysql -y
 bash
 sudo mysql
 CREATE DATABASE wordpress_db;
-CREATE USER 'alexis_rejas'@'localhost' IDENTIFIED BY 'admin123';
-GRANT ALL PRIVILEGES ON wordpress_db.* TO 'alexis_rejas'@'localhost';
+CREATE USER 'ruby_cubas'@'localhost' IDENTIFIED BY 'admin123';
+GRANT ALL PRIVILEGES ON wordpress_db.* TO 'ruby_cubas'@'localhost';
 FLUSH PRIVILEGES;
 
 
