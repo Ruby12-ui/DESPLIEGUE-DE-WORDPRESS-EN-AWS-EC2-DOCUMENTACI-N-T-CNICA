@@ -20,7 +20,7 @@ UFW Firewall
 GitHub
 
 ## URL del Sitio
-http://100.54.146.73
+http://13.221.19.167
 
 ## Pasos Resumidos
 
